@@ -33,6 +33,8 @@ sudo apt update
 sudo apt install v2raya
 ```
 
+树梅派服务器v2raya设置如下：（仅供参考）
+
 ![v2raya设置](https://github.com/MoLiYue/dlut_eda_network_ipv6_proxy/blob/main/pictures/2021-10-29_17-13.jpg)
 
 ![v2raya设置](https://github.com/MoLiYue/dlut_eda_network_ipv6_proxy/blob/main/pictures/2021-10-29_17-14.jpg)
