@@ -1,10 +1,4 @@
-# 初步建成ipv6 proxy
-
-[ipv6 proxy教学](https://www.youtube.com/watch?v=Txfh0a4YqzQ&t=32s)
-
-[学长图文教程](https://buuubuuu.notion.site/ipv6-VPS-a626565bac9e47ddb1980a4c81fbf988)
-
-## 树梅派做服务器
+# 树梅派做服务器
 
 我们使用树梅派在教学区充当ipv6 proxy服务器使用。
 
@@ -24,7 +18,7 @@
 
 v2raya的安装与使用详见[使用手册](https://v2raya.org/docs/prologue/installation/debian/)
 
-使用时需要的命令我简单总结如下
+使用时需要的命令我简单总结如下，建议阅读上面的使用手册，以下内容可能不适用最新的情况。
 
 ```
 curl -Ls https://mirrors.v2raya.org/go.sh | sudo bash
@@ -38,3 +32,15 @@ sudo apt update
 
 sudo apt install v2raya
 ```
+
+安装好v2raya后需要配置科学上网，配置好后根据[学长图文教程](https://buuubuuu.notion.site/ipv6-VPS-a626565bac9e47ddb1980a4c81fbf988)完成shadowsockets的安装。
+
+安装好后即可使用。
+
+### 补充：
+
+linux下客户端使用v2raya连接ipv6服务器实现全局代理（透明代理）白嫖校园网。
+
+### 兴趣阅读
+
+[ipv6 proxy教学](https://www.youtube.com/watch?v=Txfh0a4YqzQ&t=32s)
