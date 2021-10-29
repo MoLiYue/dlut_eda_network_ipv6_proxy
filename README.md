@@ -33,6 +33,10 @@ sudo apt update
 sudo apt install v2raya
 ```
 
+![v2raya设置](https://github.com/MoLiYue/dlut_eda_network_ipv6_proxy/blob/main/pictures/2021-10-29_17-13.jpg)
+
+![v2raya设置](https://github.com/MoLiYue/dlut_eda_network_ipv6_proxy/blob/main/pictures/2021-10-29_17-14.jpg)
+
 安装好v2raya后需要配置科学上网，配置好后根据[学长图文教程](https://buuubuuu.notion.site/ipv6-VPS-a626565bac9e47ddb1980a4c81fbf988)完成shadowsockets的安装。
 
 安装好后即可使用。
